@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: circe, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+header {
+    background: url(../images/Rectangle\ 16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list ul {
+    list-style: none;
+}
+
+.nav__list a {
+    text-decoration: none;
+}
+
+.pdf__card {
+    margin-top: 70px;
+    max-width: 1100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 72px 50px;
+    box-shadow: 0px -8px 14px rgba(53, 70, 94, 0.02), 0px 50px 80px rgba(53, 70, 94, 0.1);
+    border-radius: 5px;
+    position: relative;
+}
+
+.mask__group {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.mask__group1 {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+.mask__group2 {
+    position: absolute;
+    bottom: 40px;
+    right: 400px;
+}
+
+.carousel__my {
+    position: absolute;
+    max-width: 800px;
+    bottom: -60px;
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px -8px 14px rgba(53, 70, 94, 0.02), 0px 50px 80px rgba(53, 70, 94, 0.1);
+    border-radius: 5px;
+}
+
+.margin__top {
+    margin-top: 300px;
+}
+
+.bg__transparent {
+    max-width: 700px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #35465E;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.connect .row,
+.box__shadow {
+    background: #FFFFFF;
+    box-shadow: 0px -8px 14px rgba(53, 70, 94, 0.02), 0px 50px 80px rgba(53, 70, 94, 0.1);
+    border-radius: 5px;
+}
+
+.clouds1 {
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+
+.clouds2 {
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+}
+.position__relative {
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+footer {
+    background: blue;
+    padding-top: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mask1 {
+        margin-top: 260px;
+    }
+
+    .carousel__my {
+        bottom: -290px;
+        right: 0;
+    }
+
+    .clouds1 {
+        display: none;
+    }
+
+    .clouds2 {
+        display: none;
+    }
+
+}
